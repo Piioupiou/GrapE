@@ -1,3 +1,16 @@
+//
+// Created by Piou on 29/10/2021.
+/*
+ _______   _
+|_   __ \ (_)
+  | |__) |__   .--.   __   _
+  |  ___/[  |/ .'`\ \[  | | |
+ _| |_    | || \__. | | \_/ |,
+|_____|  [___]'.__.'  '.__.'_/
+ pierrick.gallois.lacroix@gmail.com
+*/
+//
+
 #pragma once
 
 #include "grp_window.hpp"

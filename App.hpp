@@ -20,7 +20,7 @@
 #include "grp_swap_chain.hpp"
 #include "grp_model.hpp"
 
-//std
+// std
 #include <memory>
 #include <vector>
 

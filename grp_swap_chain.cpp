@@ -1,3 +1,16 @@
+//
+// Created by Piou on 29/10/2021.
+/*
+ _______   _
+|_   __ \ (_)
+  | |__) |__   .--.   __   _
+  |  ___/[  |/ .'`\ \[  | | |
+ _| |_    | || \__. | | \_/ |,
+|_____|  [___]'.__.'  '.__.'_/
+ pierrick.gallois.lacroix@gmail.com
+*/
+//
+
 #include "grp_swap_chain.hpp"
 
 // std
@@ -373,7 +386,7 @@ namespace grp {
 
     VkPresentModeKHR GrpSwapChain::chooseSwapPresentMode(const std::vector<VkPresentModeKHR> &availablePresentModes) {
         for (const auto &availablePresentMode: availablePresentModes) {
-            if (availablePresentMode == VK_PRESENT_MODE_MAILBOX_KHR) {
+            if (availablePresentMode == VK_PRESENT_MODE_FIFO_KHR) {
                 std::cout << "Present mode: Mailbox" << std::endl;
                 return availablePresentMode;
             }
