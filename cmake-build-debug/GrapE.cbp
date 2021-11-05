@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="GrapE"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\Libraries\;CMake Files\..\..\..\..\Libraries\glm-0.9.9.8\;CMake Files\..\..\..\..\Libraries\glm-0.9.9.8\cmake\;CMake Files\..\..\..\..\Libraries\glm-0.9.9.8\cmake\glm\;CMake Files\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/pierr/CLionProjects/GrapE/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\pierr\CLionProjects\GrapE\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\pierr\CLionProjects\GrapE\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\pierr\CLionProjects\GrapE\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\pierr\CLionProjects\GrapE\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/pierr/CLionProjects/GrapE/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\pierr\CLionProjects\GrapE\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\pierr\CLionProjects\GrapE\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\pierr\CLionProjects\GrapE\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\pierr\CLionProjects\GrapE\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GrapE">
+				<Option output="C:/Users/pierr/CLionProjects/GrapE/cmake-build-debug/GrapE.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/pierr/CLionProjects/GrapE/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/VulkanSDK/1.2.189.2/Include"/>
+					<Add directory="C:/Libraries/glm-0.9.9.8"/>
+					<Add directory="C:/Libraries/glfw-3.3.4.bin.WIN64/include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\ATLMFC\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.19041.0\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.19041.0\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.19041.0\\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.19041.0\\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\pierr\CLionProjects\GrapE\cmake-build-debug\Makefile VERBOSE=1 GrapE"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\pierr\CLionProjects\GrapE\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\pierr\CLionProjects\GrapE\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\pierr\CLionProjects\GrapE\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GrapE/fast">
+				<Option output="C:/Users/pierr/CLionProjects/GrapE/cmake-build-debug/GrapE.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/pierr/CLionProjects/GrapE/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/VulkanSDK/1.2.189.2/Include"/>
+					<Add directory="C:/Libraries/glm-0.9.9.8"/>
+					<Add directory="C:/Libraries/glfw-3.3.4.bin.WIN64/include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\ATLMFC\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.19041.0\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.19041.0\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.19041.0\\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.19041.0\\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\pierr\CLionProjects\GrapE\cmake-build-debug\Makefile VERBOSE=1 GrapE/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\pierr\CLionProjects\GrapE\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\pierr\CLionProjects\GrapE\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\pierr\CLionProjects\GrapE\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Shaders">
+				<Option working_dir="C:/Users/pierr/CLionProjects/GrapE/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\pierr\CLionProjects\GrapE\cmake-build-debug\Makefile VERBOSE=1 Shaders"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\pierr\CLionProjects\GrapE\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\pierr\CLionProjects\GrapE\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\pierr\CLionProjects\GrapE\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/pierr/CLionProjects/GrapE/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\pierr\CLionProjects\GrapE\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\pierr\CLionProjects\GrapE\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\pierr\CLionProjects\GrapE\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\pierr\CLionProjects\GrapE\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/pierr/CLionProjects/GrapE/App.cpp">
+			<Option target="GrapE"/>
+		</Unit>
+		<Unit filename="C:/Users/pierr/CLionProjects/GrapE/App.hpp">
+			<Option target="GrapE"/>
+		</Unit>
+		<Unit filename="C:/Users/pierr/CLionProjects/GrapE/grp_device.cpp">
+			<Option target="GrapE"/>
+		</Unit>
+		<Unit filename="C:/Users/pierr/CLionProjects/GrapE/grp_device.hpp">
+			<Option target="GrapE"/>
+		</Unit>
+		<Unit filename="C:/Users/pierr/CLionProjects/GrapE/grp_model.cpp">
+			<Option target="GrapE"/>
+		</Unit>
+		<Unit filename="C:/Users/pierr/CLionProjects/GrapE/grp_model.hpp">
+			<Option target="GrapE"/>
+		</Unit>
+		<Unit filename="C:/Users/pierr/CLionProjects/GrapE/grp_pipeline.cpp">
+			<Option target="GrapE"/>
+		</Unit>
+		<Unit filename="C:/Users/pierr/CLionProjects/GrapE/grp_pipeline.hpp">
+			<Option target="GrapE"/>
+		</Unit>
+		<Unit filename="C:/Users/pierr/CLionProjects/GrapE/grp_swap_chain.cpp">
+			<Option target="GrapE"/>
+		</Unit>
+		<Unit filename="C:/Users/pierr/CLionProjects/GrapE/grp_swap_chain.hpp">
+			<Option target="GrapE"/>
+		</Unit>
+		<Unit filename="C:/Users/pierr/CLionProjects/GrapE/grp_window.cpp">
+			<Option target="GrapE"/>
+		</Unit>
+		<Unit filename="C:/Users/pierr/CLionProjects/GrapE/grp_window.hpp">
+			<Option target="GrapE"/>
+		</Unit>
+		<Unit filename="C:/Users/pierr/CLionProjects/GrapE/main.cpp">
+			<Option target="GrapE"/>
+		</Unit>
+		<Unit filename="C:/Users/pierr/CLionProjects/GrapE/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/pierr/CLionProjects/GrapE/../../../../Libraries/glm-0.9.9.8/cmake/glm/glmConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Libraries\glm-0.9.9.8\cmake\glm\"/>
+		</Unit>
+		<Unit filename="C:/Users/pierr/CLionProjects/GrapE/../../../../Libraries/glm-0.9.9.8/cmake/glm/glmConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Libraries\glm-0.9.9.8\cmake\glm\"/>
+		</Unit>
+		<Unit filename="C:/Users/pierr/CLionProjects/GrapE/cmake/FindGLFW.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
