@@ -52,6 +52,10 @@ namespace grp {
         VkResult acquireNextImage(uint32_t *imageIndex);
         VkResult submitCommandBuffers(const VkCommandBuffer *buffers, uint32_t *imageIndex);
 
+        bool compareSwapFormats(const GrpSwapChain &swapChaine) const {
+            return swapChaine.swapChainDepthFormat == swapChainDepthFormat && swapChaine.swapChainImageFormat == swapChainImageFormat;
+        }
+
     private:
         void init();
         void createSwapChain();
@@ -69,6 +73,7 @@ namespace grp {
         VkExtent2D chooseSwapExtent(const VkSurfaceCapabilitiesKHR &capabilities);
 
         VkFormat swapChainImageFormat;
+        VkFormat swapChainDepthFormat;
         VkExtent2D swapChainExtent;
 
         std::vector<VkFramebuffer> swapChainFramebuffers;

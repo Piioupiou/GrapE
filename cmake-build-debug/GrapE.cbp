@@ -112,6 +112,12 @@
 		<Unit filename="C:/Users/pierr/CLionProjects/GrapE/grp_device.hpp">
 			<Option target="GrapE"/>
 		</Unit>
+		<Unit filename="C:/Users/pierr/CLionProjects/GrapE/grp_game_object.cpp">
+			<Option target="GrapE"/>
+		</Unit>
+		<Unit filename="C:/Users/pierr/CLionProjects/GrapE/grp_game_object.hpp">
+			<Option target="GrapE"/>
+		</Unit>
 		<Unit filename="C:/Users/pierr/CLionProjects/GrapE/grp_model.cpp">
 			<Option target="GrapE"/>
 		</Unit>
@@ -122,6 +128,12 @@
 			<Option target="GrapE"/>
 		</Unit>
 		<Unit filename="C:/Users/pierr/CLionProjects/GrapE/grp_pipeline.hpp">
+			<Option target="GrapE"/>
+		</Unit>
+		<Unit filename="C:/Users/pierr/CLionProjects/GrapE/grp_renderer.cpp">
+			<Option target="GrapE"/>
+		</Unit>
+		<Unit filename="C:/Users/pierr/CLionProjects/GrapE/grp_renderer.hpp">
 			<Option target="GrapE"/>
 		</Unit>
 		<Unit filename="C:/Users/pierr/CLionProjects/GrapE/grp_swap_chain.cpp">
@@ -137,6 +149,12 @@
 			<Option target="GrapE"/>
 		</Unit>
 		<Unit filename="C:/Users/pierr/CLionProjects/GrapE/main.cpp">
+			<Option target="GrapE"/>
+		</Unit>
+		<Unit filename="C:/Users/pierr/CLionProjects/GrapE/simple_render_system.cpp">
+			<Option target="GrapE"/>
+		</Unit>
+		<Unit filename="C:/Users/pierr/CLionProjects/GrapE/simple_render_system.hpp">
 			<Option target="GrapE"/>
 		</Unit>
 		<Unit filename="C:/Users/pierr/CLionProjects/GrapE/CMakeLists.txt">

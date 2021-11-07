@@ -179,6 +179,30 @@ grp_device.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GrapE.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GrapE.dir\grp_device.cpp.s
 .PHONY : grp_device.cpp.s
 
+grp_game_object.obj: grp_game_object.cpp.obj
+.PHONY : grp_game_object.obj
+
+# target to build an object file
+grp_game_object.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GrapE.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GrapE.dir\grp_game_object.cpp.obj
+.PHONY : grp_game_object.cpp.obj
+
+grp_game_object.i: grp_game_object.cpp.i
+.PHONY : grp_game_object.i
+
+# target to preprocess a source file
+grp_game_object.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GrapE.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GrapE.dir\grp_game_object.cpp.i
+.PHONY : grp_game_object.cpp.i
+
+grp_game_object.s: grp_game_object.cpp.s
+.PHONY : grp_game_object.s
+
+# target to generate assembly for a file
+grp_game_object.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GrapE.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GrapE.dir\grp_game_object.cpp.s
+.PHONY : grp_game_object.cpp.s
+
 grp_model.obj: grp_model.cpp.obj
 .PHONY : grp_model.obj
 
@@ -226,6 +250,30 @@ grp_pipeline.s: grp_pipeline.cpp.s
 grp_pipeline.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GrapE.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GrapE.dir\grp_pipeline.cpp.s
 .PHONY : grp_pipeline.cpp.s
+
+grp_renderer.obj: grp_renderer.cpp.obj
+.PHONY : grp_renderer.obj
+
+# target to build an object file
+grp_renderer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GrapE.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GrapE.dir\grp_renderer.cpp.obj
+.PHONY : grp_renderer.cpp.obj
+
+grp_renderer.i: grp_renderer.cpp.i
+.PHONY : grp_renderer.i
+
+# target to preprocess a source file
+grp_renderer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GrapE.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GrapE.dir\grp_renderer.cpp.i
+.PHONY : grp_renderer.cpp.i
+
+grp_renderer.s: grp_renderer.cpp.s
+.PHONY : grp_renderer.s
+
+# target to generate assembly for a file
+grp_renderer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GrapE.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GrapE.dir\grp_renderer.cpp.s
+.PHONY : grp_renderer.cpp.s
 
 grp_swap_chain.obj: grp_swap_chain.cpp.obj
 .PHONY : grp_swap_chain.obj
@@ -299,6 +347,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GrapE.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GrapE.dir\main.cpp.s
 .PHONY : main.cpp.s
 
+simple_render_system.obj: simple_render_system.cpp.obj
+.PHONY : simple_render_system.obj
+
+# target to build an object file
+simple_render_system.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GrapE.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GrapE.dir\simple_render_system.cpp.obj
+.PHONY : simple_render_system.cpp.obj
+
+simple_render_system.i: simple_render_system.cpp.i
+.PHONY : simple_render_system.i
+
+# target to preprocess a source file
+simple_render_system.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GrapE.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GrapE.dir\simple_render_system.cpp.i
+.PHONY : simple_render_system.cpp.i
+
+simple_render_system.s: simple_render_system.cpp.s
+.PHONY : simple_render_system.s
+
+# target to generate assembly for a file
+simple_render_system.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GrapE.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GrapE.dir\simple_render_system.cpp.s
+.PHONY : simple_render_system.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -315,12 +387,18 @@ help:
 	@echo ... grp_device.obj
 	@echo ... grp_device.i
 	@echo ... grp_device.s
+	@echo ... grp_game_object.obj
+	@echo ... grp_game_object.i
+	@echo ... grp_game_object.s
 	@echo ... grp_model.obj
 	@echo ... grp_model.i
 	@echo ... grp_model.s
 	@echo ... grp_pipeline.obj
 	@echo ... grp_pipeline.i
 	@echo ... grp_pipeline.s
+	@echo ... grp_renderer.obj
+	@echo ... grp_renderer.i
+	@echo ... grp_renderer.s
 	@echo ... grp_swap_chain.obj
 	@echo ... grp_swap_chain.i
 	@echo ... grp_swap_chain.s
@@ -330,6 +408,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... simple_render_system.obj
+	@echo ... simple_render_system.i
+	@echo ... simple_render_system.s
 .PHONY : help
 
 

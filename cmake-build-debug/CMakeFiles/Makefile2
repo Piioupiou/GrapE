@@ -71,12 +71,12 @@ clean: CMakeFiles\Shaders.dir\clean
 CMakeFiles\GrapE.dir\all: CMakeFiles\Shaders.dir\all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GrapE.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GrapE.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GrapE.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GrapE.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\pierr\CLionProjects\GrapE\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target GrapE"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\pierr\CLionProjects\GrapE\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Built target GrapE"
 .PHONY : CMakeFiles\GrapE.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\GrapE.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\pierr\CLionProjects\GrapE\cmake-build-debug\CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\pierr\CLionProjects\GrapE\cmake-build-debug\CMakeFiles 13
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\GrapE.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\pierr\CLionProjects\GrapE\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles\GrapE.dir\rule
@@ -97,7 +97,7 @@ CMakeFiles\GrapE.dir\clean:
 CMakeFiles\Shaders.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Shaders.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Shaders.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Shaders.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Shaders.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\pierr\CLionProjects\GrapE\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target Shaders"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\pierr\CLionProjects\GrapE\cmake-build-debug\CMakeFiles --progress-num=12,13 "Built target Shaders"
 .PHONY : CMakeFiles\Shaders.dir\all
 
 # Build rule for subdir invocation for target.

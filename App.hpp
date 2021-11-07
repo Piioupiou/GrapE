@@ -15,10 +15,9 @@
 #define GRAPE_APP_HPP
 
 #include "grp_window.hpp"
-#include "grp_pipeline.hpp"
 #include "grp_device.hpp"
-#include "grp_swap_chain.hpp"
-#include "grp_model.hpp"
+#include "grp_game_object.hpp"
+#include "grp_renderer.hpp"
 
 // std
 #include <memory>
@@ -40,27 +39,10 @@ namespace grp {
     private:
         GrpWindow grpWindow{WIDTH, HEIGHT, "Grape Example"};
         GrpDevice grpDevice{grpWindow};
-        std::unique_ptr<GrpSwapChain> grpSwapChain;
-        std::unique_ptr<GrpPipeline> grpPipeline;
-        VkPipelineLayout pipelineLayout;
-        std::vector<VkCommandBuffer> commandBuffers;
-        std::unique_ptr<GrpModel> grpModel;
+        GrpRenderer grpRenderer{grpWindow, grpDevice};
+        std::vector<GrpGameObject> gameObjects;
 
-        void loadModels();
-
-        void createPipelineLayout();
-
-        void createPipeline();
-
-        void createCommandBuffers();
-
-        void freeCommandBuffers();
-
-        void drawFrame();
-
-        void recreateSwapChain();
-
-        void recordCommandBuffer(int imageIndex);
+        void loadGameObjects();
     };
 } // grp namespace
 

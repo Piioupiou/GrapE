@@ -10,11 +10,14 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/pierr/CLionProjects/GrapE/App.cpp" "C:/Users/pierr/CLionProjects/GrapE/cmake-build-debug/CMakeFiles/GrapE.dir/App.cpp.obj"
   "C:/Users/pierr/CLionProjects/GrapE/grp_device.cpp" "C:/Users/pierr/CLionProjects/GrapE/cmake-build-debug/CMakeFiles/GrapE.dir/grp_device.cpp.obj"
+  "C:/Users/pierr/CLionProjects/GrapE/grp_game_object.cpp" "C:/Users/pierr/CLionProjects/GrapE/cmake-build-debug/CMakeFiles/GrapE.dir/grp_game_object.cpp.obj"
   "C:/Users/pierr/CLionProjects/GrapE/grp_model.cpp" "C:/Users/pierr/CLionProjects/GrapE/cmake-build-debug/CMakeFiles/GrapE.dir/grp_model.cpp.obj"
   "C:/Users/pierr/CLionProjects/GrapE/grp_pipeline.cpp" "C:/Users/pierr/CLionProjects/GrapE/cmake-build-debug/CMakeFiles/GrapE.dir/grp_pipeline.cpp.obj"
+  "C:/Users/pierr/CLionProjects/GrapE/grp_renderer.cpp" "C:/Users/pierr/CLionProjects/GrapE/cmake-build-debug/CMakeFiles/GrapE.dir/grp_renderer.cpp.obj"
   "C:/Users/pierr/CLionProjects/GrapE/grp_swap_chain.cpp" "C:/Users/pierr/CLionProjects/GrapE/cmake-build-debug/CMakeFiles/GrapE.dir/grp_swap_chain.cpp.obj"
   "C:/Users/pierr/CLionProjects/GrapE/grp_window.cpp" "C:/Users/pierr/CLionProjects/GrapE/cmake-build-debug/CMakeFiles/GrapE.dir/grp_window.cpp.obj"
   "C:/Users/pierr/CLionProjects/GrapE/main.cpp" "C:/Users/pierr/CLionProjects/GrapE/cmake-build-debug/CMakeFiles/GrapE.dir/main.cpp.obj"
+  "C:/Users/pierr/CLionProjects/GrapE/simple_render_system.cpp" "C:/Users/pierr/CLionProjects/GrapE/cmake-build-debug/CMakeFiles/GrapE.dir/simple_render_system.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 

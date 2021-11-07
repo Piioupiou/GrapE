@@ -18,7 +18,7 @@ set(glm_DIR C:\\Libraries\\glm-0.9.9.8\\cmake\\glm)
 
 list(APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake)
 
-add_executable(GrapE main.cpp grp_window.hpp grp_window.cpp App.cpp App.hpp grp_pipeline.hpp grp_pipeline.cpp grp_device.hpp grp_device.cpp grp_swap_chain.cpp grp_swap_chain.hpp grp_model.cpp grp_model.hpp)
+add_executable(GrapE main.cpp grp_window.hpp grp_window.cpp App.cpp App.hpp grp_pipeline.hpp grp_pipeline.cpp grp_device.hpp grp_device.cpp grp_swap_chain.cpp grp_swap_chain.hpp grp_model.cpp grp_model.hpp grp_game_object.cpp grp_game_object.hpp grp_renderer.cpp grp_renderer.hpp simple_render_system.cpp simple_render_system.hpp)
 include_directories($ENV{VULKAN_SDK}/Include)
 include_directories(C:\\Libraries\\glm-0.9.9.8)
 find_package(Vulkan REQUIRED)
