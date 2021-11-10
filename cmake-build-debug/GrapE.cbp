@@ -106,6 +106,12 @@
 		<Unit filename="C:/Users/pierr/CLionProjects/GrapE/App.hpp">
 			<Option target="GrapE"/>
 		</Unit>
+		<Unit filename="C:/Users/pierr/CLionProjects/GrapE/grp_camera.cpp">
+			<Option target="GrapE"/>
+		</Unit>
+		<Unit filename="C:/Users/pierr/CLionProjects/GrapE/grp_camera.hpp">
+			<Option target="GrapE"/>
+		</Unit>
 		<Unit filename="C:/Users/pierr/CLionProjects/GrapE/grp_device.cpp">
 			<Option target="GrapE"/>
 		</Unit>

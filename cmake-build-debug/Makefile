@@ -155,6 +155,30 @@ App.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GrapE.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GrapE.dir\App.cpp.s
 .PHONY : App.cpp.s
 
+grp_camera.obj: grp_camera.cpp.obj
+.PHONY : grp_camera.obj
+
+# target to build an object file
+grp_camera.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GrapE.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GrapE.dir\grp_camera.cpp.obj
+.PHONY : grp_camera.cpp.obj
+
+grp_camera.i: grp_camera.cpp.i
+.PHONY : grp_camera.i
+
+# target to preprocess a source file
+grp_camera.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GrapE.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GrapE.dir\grp_camera.cpp.i
+.PHONY : grp_camera.cpp.i
+
+grp_camera.s: grp_camera.cpp.s
+.PHONY : grp_camera.s
+
+# target to generate assembly for a file
+grp_camera.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GrapE.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GrapE.dir\grp_camera.cpp.s
+.PHONY : grp_camera.cpp.s
+
 grp_device.obj: grp_device.cpp.obj
 .PHONY : grp_device.obj
 
@@ -384,6 +408,9 @@ help:
 	@echo ... App.obj
 	@echo ... App.i
 	@echo ... App.s
+	@echo ... grp_camera.obj
+	@echo ... grp_camera.i
+	@echo ... grp_camera.s
 	@echo ... grp_device.obj
 	@echo ... grp_device.i
 	@echo ... grp_device.s

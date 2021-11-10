@@ -436,6 +436,18 @@ cmath
 detail/func_exponential.inl
 C:/Libraries/glm-0.9.9.8/glm/detail/func_exponential.inl
 
+C:/Libraries/glm-0.9.9.8/glm/ext/matrix_clip_space.hpp
+../ext/scalar_constants.hpp
+C:/Libraries/glm-0.9.9.8/glm/ext/scalar_constants.hpp
+../geometric.hpp
+C:/Libraries/glm-0.9.9.8/glm/geometric.hpp
+../trigonometric.hpp
+C:/Libraries/glm-0.9.9.8/glm/trigonometric.hpp
+matrix_clip_space.inl
+C:/Libraries/glm-0.9.9.8/glm/ext/matrix_clip_space.inl
+
+C:/Libraries/glm-0.9.9.8/glm/ext/matrix_clip_space.inl
+
 C:/Libraries/glm-0.9.9.8/glm/ext/matrix_double2x2.hpp
 ../detail/type_mat2x2.hpp
 C:/Libraries/glm-0.9.9.8/glm/detail/type_mat2x2.hpp
@@ -579,6 +591,32 @@ C:/Libraries/glm-0.9.9.8/glm/detail/type_mat4x4.hpp
 C:/Libraries/glm-0.9.9.8/glm/ext/matrix_float4x4_precision.hpp
 ../detail/type_mat4x4.hpp
 C:/Libraries/glm-0.9.9.8/glm/detail/type_mat4x4.hpp
+
+C:/Libraries/glm-0.9.9.8/glm/ext/matrix_projection.hpp
+../gtc/constants.hpp
+C:/Libraries/glm-0.9.9.8/glm/gtc/constants.hpp
+../geometric.hpp
+C:/Libraries/glm-0.9.9.8/glm/geometric.hpp
+../trigonometric.hpp
+C:/Libraries/glm-0.9.9.8/glm/trigonometric.hpp
+../matrix.hpp
+C:/Libraries/glm-0.9.9.8/glm/matrix.hpp
+matrix_projection.inl
+C:/Libraries/glm-0.9.9.8/glm/ext/matrix_projection.inl
+
+C:/Libraries/glm-0.9.9.8/glm/ext/matrix_projection.inl
+
+C:/Libraries/glm-0.9.9.8/glm/ext/matrix_transform.hpp
+../gtc/constants.hpp
+C:/Libraries/glm-0.9.9.8/glm/gtc/constants.hpp
+../geometric.hpp
+C:/Libraries/glm-0.9.9.8/glm/geometric.hpp
+../trigonometric.hpp
+C:/Libraries/glm-0.9.9.8/glm/trigonometric.hpp
+../matrix.hpp
+C:/Libraries/glm-0.9.9.8/glm/matrix.hpp
+matrix_transform.inl
+C:/Libraries/glm-0.9.9.8/glm/ext/matrix_transform.inl
 
 C:/Libraries/glm-0.9.9.8/glm/ext/scalar_constants.hpp
 ../detail/setup.hpp
@@ -807,6 +845,32 @@ constants.inl
 C:/Libraries/glm-0.9.9.8/glm/gtc/constants.inl
 
 C:/Libraries/glm-0.9.9.8/glm/gtc/constants.inl
+
+C:/Libraries/glm-0.9.9.8/glm/gtc/matrix_transform.hpp
+../mat4x4.hpp
+C:/Libraries/glm-0.9.9.8/glm/mat4x4.hpp
+../vec2.hpp
+C:/Libraries/glm-0.9.9.8/glm/vec2.hpp
+../vec3.hpp
+C:/Libraries/glm-0.9.9.8/glm/vec3.hpp
+../vec4.hpp
+C:/Libraries/glm-0.9.9.8/glm/vec4.hpp
+../ext/matrix_projection.hpp
+C:/Libraries/glm-0.9.9.8/glm/ext/matrix_projection.hpp
+../ext/matrix_clip_space.hpp
+C:/Libraries/glm-0.9.9.8/glm/ext/matrix_clip_space.hpp
+../ext/matrix_transform.hpp
+C:/Libraries/glm-0.9.9.8/glm/ext/matrix_transform.hpp
+matrix_transform.inl
+C:/Libraries/glm-0.9.9.8/glm/gtc/matrix_transform.inl
+
+C:/Libraries/glm-0.9.9.8/glm/gtc/matrix_transform.inl
+../geometric.hpp
+C:/Libraries/glm-0.9.9.8/glm/geometric.hpp
+../trigonometric.hpp
+C:/Libraries/glm-0.9.9.8/glm/trigonometric.hpp
+../matrix.hpp
+C:/Libraries/glm-0.9.9.8/glm/matrix.hpp
 
 C:/Libraries/glm-0.9.9.8/glm/integer.hpp
 detail/qualifier.hpp
@@ -1079,6 +1143,8 @@ C:/Libraries/glm-0.9.9.8/glm/detail/func_vector_relational.inl
 C:/Users/pierr/CLionProjects/GrapE/App.cpp
 App.hpp
 C:/Users/pierr/CLionProjects/GrapE/App.hpp
+grp_camera.hpp
+C:/Users/pierr/CLionProjects/GrapE/grp_camera.hpp
 simple_render_system.hpp
 C:/Users/pierr/CLionProjects/GrapE/simple_render_system.hpp
 array
@@ -1104,6 +1170,18 @@ memory
 vector
 -
 
+C:/Users/pierr/CLionProjects/GrapE/grp_camera.cpp
+grp_camera.hpp
+C:/Users/pierr/CLionProjects/GrapE/grp_camera.hpp
+cassert
+-
+limits
+-
+
+C:/Users/pierr/CLionProjects/GrapE/grp_camera.hpp
+glm/glm.hpp
+-
+
 C:/Users/pierr/CLionProjects/GrapE/grp_device.hpp
 grp_window.hpp
 C:/Users/pierr/CLionProjects/GrapE/grp_window.hpp
@@ -1115,6 +1193,8 @@ vector
 C:/Users/pierr/CLionProjects/GrapE/grp_game_object.hpp
 grp_model.hpp
 C:/Users/pierr/CLionProjects/GrapE/grp_model.hpp
+glm/gtc/matrix_transform.hpp
+-
 memory
 -
 
@@ -1132,16 +1212,6 @@ C:/Users/pierr/CLionProjects/GrapE/grp_device.hpp
 string
 -
 vector
--
-
-C:/Users/pierr/CLionProjects/GrapE/grp_renderer.cpp
-grp_renderer.hpp
-C:/Users/pierr/CLionProjects/GrapE/grp_renderer.hpp
-array
--
-cassert
--
-stdexcept
 -
 
 C:/Users/pierr/CLionProjects/GrapE/grp_renderer.hpp
@@ -1176,20 +1246,16 @@ GLFW/glfw3.h
 string
 -
 
-C:/Users/pierr/CLionProjects/GrapE/main.cpp
-GLFW/glfw3.h
--
-glm/vec4.hpp
--
-glm/mat4x4.hpp
--
-App.hpp
-C:/Users/pierr/CLionProjects/GrapE/App.hpp
-iostream
--
-cstdlib
+C:/Users/pierr/CLionProjects/GrapE/simple_render_system.cpp
+simple_render_system.hpp
+C:/Users/pierr/CLionProjects/GrapE/simple_render_system.hpp
+array
 -
 stdexcept
+-
+glm/glm.hpp
+-
+glm/gtc/constants.hpp
 -
 
 C:/Users/pierr/CLionProjects/GrapE/simple_render_system.hpp
@@ -1199,6 +1265,8 @@ grp_device.hpp
 C:/Users/pierr/CLionProjects/GrapE/grp_device.hpp
 grp_game_object.hpp
 C:/Users/pierr/CLionProjects/GrapE/grp_game_object.hpp
+grp_camera.hpp
+C:/Users/pierr/CLionProjects/GrapE/grp_camera.hpp
 memory
 -
 vector

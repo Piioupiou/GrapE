@@ -245,6 +245,25 @@ CMakeFiles\GrapE.dir\simple_render_system.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\GrapE.dir\simple_render_system.cpp.s /c C:\Users\pierr\CLionProjects\GrapE\simple_render_system.cpp
 <<
 
+CMakeFiles\GrapE.dir\grp_camera.cpp.obj: CMakeFiles\GrapE.dir\flags.make
+CMakeFiles\GrapE.dir\grp_camera.cpp.obj: ..\grp_camera.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\pierr\CLionProjects\GrapE\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/GrapE.dir/grp_camera.cpp.obj"
+	C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1430~1.307\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\GrapE.dir\grp_camera.cpp.obj /FdCMakeFiles\GrapE.dir\ /FS -c C:\Users\pierr\CLionProjects\GrapE\grp_camera.cpp
+<<
+
+CMakeFiles\GrapE.dir\grp_camera.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GrapE.dir/grp_camera.cpp.i"
+	C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1430~1.307\bin\Hostx64\x64\cl.exe > CMakeFiles\GrapE.dir\grp_camera.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\pierr\CLionProjects\GrapE\grp_camera.cpp
+<<
+
+CMakeFiles\GrapE.dir\grp_camera.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GrapE.dir/grp_camera.cpp.s"
+	C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1430~1.307\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\GrapE.dir\grp_camera.cpp.s /c C:\Users\pierr\CLionProjects\GrapE\grp_camera.cpp
+<<
+
 # Object files for target GrapE
 GrapE_OBJECTS = \
 "CMakeFiles\GrapE.dir\main.cpp.obj" \
@@ -256,7 +275,8 @@ GrapE_OBJECTS = \
 "CMakeFiles\GrapE.dir\grp_model.cpp.obj" \
 "CMakeFiles\GrapE.dir\grp_game_object.cpp.obj" \
 "CMakeFiles\GrapE.dir\grp_renderer.cpp.obj" \
-"CMakeFiles\GrapE.dir\simple_render_system.cpp.obj"
+"CMakeFiles\GrapE.dir\simple_render_system.cpp.obj" \
+"CMakeFiles\GrapE.dir\grp_camera.cpp.obj"
 
 # External object files for target GrapE
 GrapE_EXTERNAL_OBJECTS =
@@ -271,11 +291,12 @@ GrapE.exe: CMakeFiles\GrapE.dir\grp_model.cpp.obj
 GrapE.exe: CMakeFiles\GrapE.dir\grp_game_object.cpp.obj
 GrapE.exe: CMakeFiles\GrapE.dir\grp_renderer.cpp.obj
 GrapE.exe: CMakeFiles\GrapE.dir\simple_render_system.cpp.obj
+GrapE.exe: CMakeFiles\GrapE.dir\grp_camera.cpp.obj
 GrapE.exe: CMakeFiles\GrapE.dir\build.make
 GrapE.exe: C:\VulkanSDK\1.2.189.2\Lib\vulkan-1.lib
 GrapE.exe: C:\Libraries\glfw-3.3.4.bin.WIN64\lib-vc2019\glfw3.lib
 GrapE.exe: CMakeFiles\GrapE.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\pierr\CLionProjects\GrapE\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable GrapE.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\pierr\CLionProjects\GrapE\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable GrapE.exe"
 	C:\Users\pierr\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5457.51\bin\cmake\win\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\GrapE.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\mt.exe --manifests -- C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1430~1.307\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\GrapE.dir\objects1.rsp @<<
  /out:GrapE.exe /implib:GrapE.lib /pdb:C:\Users\pierr\CLionProjects\GrapE\cmake-build-debug\GrapE.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console  C:\VulkanSDK\1.2.189.2\Lib\vulkan-1.lib C:\Libraries\glfw-3.3.4.bin.WIN64\lib-vc2019\glfw3.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

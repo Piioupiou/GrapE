@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/GrapE.dir/App.cpp.obj"
+  "CMakeFiles/GrapE.dir/grp_camera.cpp.obj"
   "CMakeFiles/GrapE.dir/grp_device.cpp.obj"
   "CMakeFiles/GrapE.dir/grp_game_object.cpp.obj"
   "CMakeFiles/GrapE.dir/grp_model.cpp.obj"

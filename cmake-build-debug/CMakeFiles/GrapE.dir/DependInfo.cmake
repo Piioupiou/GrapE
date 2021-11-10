@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/pierr/CLionProjects/GrapE/App.cpp" "C:/Users/pierr/CLionProjects/GrapE/cmake-build-debug/CMakeFiles/GrapE.dir/App.cpp.obj"
+  "C:/Users/pierr/CLionProjects/GrapE/grp_camera.cpp" "C:/Users/pierr/CLionProjects/GrapE/cmake-build-debug/CMakeFiles/GrapE.dir/grp_camera.cpp.obj"
   "C:/Users/pierr/CLionProjects/GrapE/grp_device.cpp" "C:/Users/pierr/CLionProjects/GrapE/cmake-build-debug/CMakeFiles/GrapE.dir/grp_device.cpp.obj"
   "C:/Users/pierr/CLionProjects/GrapE/grp_game_object.cpp" "C:/Users/pierr/CLionProjects/GrapE/cmake-build-debug/CMakeFiles/GrapE.dir/grp_game_object.cpp.obj"
   "C:/Users/pierr/CLionProjects/GrapE/grp_model.cpp" "C:/Users/pierr/CLionProjects/GrapE/cmake-build-debug/CMakeFiles/GrapE.dir/grp_model.cpp.obj"

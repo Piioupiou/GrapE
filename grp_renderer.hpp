@@ -35,6 +35,8 @@ namespace grp {
 
         VkRenderPass getSwapChainRenderPass() const { return grpSwapChain->getRenderPass(); }
 
+        float getAspectRatio() const { return grpSwapChain->extentAspectRatio(); }
+
         bool isFrameInProgress() const { return isFrameStarted; }
 
         VkCommandBuffer getCurrentCommandBuffer() const {
