@@ -167,15 +167,49 @@ CMakeFiles/GrapE.dir/App.cpp.obj
  C:/Libraries/glm-0.9.9.8/glm/vector_relational.hpp
  C:/Users/pierr/CLionProjects/GrapE/App.cpp
  C:/Users/pierr/CLionProjects/GrapE/App.hpp
+ C:/Users/pierr/CLionProjects/GrapE/grp_buffer.hpp
  C:/Users/pierr/CLionProjects/GrapE/grp_camera.hpp
+ C:/Users/pierr/CLionProjects/GrapE/grp_descriptors.hpp
  C:/Users/pierr/CLionProjects/GrapE/grp_device.hpp
+ C:/Users/pierr/CLionProjects/GrapE/grp_frame_info.hpp
  C:/Users/pierr/CLionProjects/GrapE/grp_game_object.hpp
  C:/Users/pierr/CLionProjects/GrapE/grp_model.hpp
  C:/Users/pierr/CLionProjects/GrapE/grp_pipeline.hpp
  C:/Users/pierr/CLionProjects/GrapE/grp_renderer.hpp
  C:/Users/pierr/CLionProjects/GrapE/grp_swap_chain.hpp
  C:/Users/pierr/CLionProjects/GrapE/grp_window.hpp
+ C:/Users/pierr/CLionProjects/GrapE/keyboard_movement_controller.hpp
  C:/Users/pierr/CLionProjects/GrapE/simple_render_system.hpp
+ C:/VulkanSDK/1.2.189.2/Include/vk_video/vulkan_video_codec_h264std.h
+ C:/VulkanSDK/1.2.189.2/Include/vk_video/vulkan_video_codec_h264std_decode.h
+ C:/VulkanSDK/1.2.189.2/Include/vk_video/vulkan_video_codec_h264std_encode.h
+ C:/VulkanSDK/1.2.189.2/Include/vk_video/vulkan_video_codec_h265std.h
+ C:/VulkanSDK/1.2.189.2/Include/vk_video/vulkan_video_codec_h265std_decode.h
+ C:/VulkanSDK/1.2.189.2/Include/vk_video/vulkan_video_codecs_common.h
+ C:/VulkanSDK/1.2.189.2/Include/vulkan/vk_platform.h
+ C:/VulkanSDK/1.2.189.2/Include/vulkan/vulkan.h
+ C:/VulkanSDK/1.2.189.2/Include/vulkan/vulkan_android.h
+ C:/VulkanSDK/1.2.189.2/Include/vulkan/vulkan_beta.h
+ C:/VulkanSDK/1.2.189.2/Include/vulkan/vulkan_core.h
+ C:/VulkanSDK/1.2.189.2/Include/vulkan/vulkan_directfb.h
+ C:/VulkanSDK/1.2.189.2/Include/vulkan/vulkan_fuchsia.h
+ C:/VulkanSDK/1.2.189.2/Include/vulkan/vulkan_ggp.h
+ C:/VulkanSDK/1.2.189.2/Include/vulkan/vulkan_ios.h
+ C:/VulkanSDK/1.2.189.2/Include/vulkan/vulkan_macos.h
+ C:/VulkanSDK/1.2.189.2/Include/vulkan/vulkan_metal.h
+ C:/VulkanSDK/1.2.189.2/Include/vulkan/vulkan_screen.h
+ C:/VulkanSDK/1.2.189.2/Include/vulkan/vulkan_vi.h
+ C:/VulkanSDK/1.2.189.2/Include/vulkan/vulkan_wayland.h
+ C:/VulkanSDK/1.2.189.2/Include/vulkan/vulkan_win32.h
+ C:/VulkanSDK/1.2.189.2/Include/vulkan/vulkan_xcb.h
+ C:/VulkanSDK/1.2.189.2/Include/vulkan/vulkan_xlib.h
+ C:/VulkanSDK/1.2.189.2/Include/vulkan/vulkan_xlib_xrandr.h
+CMakeFiles/GrapE.dir/grp_buffer.cpp.obj
+ C:/Libraries/glfw-3.3.4.bin.WIN64/include/GLFW/glfw3.h
+ C:/Users/pierr/CLionProjects/GrapE/grp_buffer.cpp
+ C:/Users/pierr/CLionProjects/GrapE/grp_buffer.hpp
+ C:/Users/pierr/CLionProjects/GrapE/grp_device.hpp
+ C:/Users/pierr/CLionProjects/GrapE/grp_window.hpp
  C:/VulkanSDK/1.2.189.2/Include/vk_video/vulkan_video_codec_h264std.h
  C:/VulkanSDK/1.2.189.2/Include/vk_video/vulkan_video_codec_h264std_decode.h
  C:/VulkanSDK/1.2.189.2/Include/vk_video/vulkan_video_codec_h264std_encode.h
@@ -354,6 +388,36 @@ CMakeFiles/GrapE.dir/grp_camera.cpp.obj
  C:/Libraries/glm-0.9.9.8/glm/vector_relational.hpp
  C:/Users/pierr/CLionProjects/GrapE/grp_camera.cpp
  C:/Users/pierr/CLionProjects/GrapE/grp_camera.hpp
+CMakeFiles/GrapE.dir/grp_descriptors.cpp.obj
+ C:/Libraries/glfw-3.3.4.bin.WIN64/include/GLFW/glfw3.h
+ C:/Users/pierr/CLionProjects/GrapE/grp_descriptors.cpp
+ C:/Users/pierr/CLionProjects/GrapE/grp_descriptors.hpp
+ C:/Users/pierr/CLionProjects/GrapE/grp_device.hpp
+ C:/Users/pierr/CLionProjects/GrapE/grp_window.hpp
+ C:/VulkanSDK/1.2.189.2/Include/vk_video/vulkan_video_codec_h264std.h
+ C:/VulkanSDK/1.2.189.2/Include/vk_video/vulkan_video_codec_h264std_decode.h
+ C:/VulkanSDK/1.2.189.2/Include/vk_video/vulkan_video_codec_h264std_encode.h
+ C:/VulkanSDK/1.2.189.2/Include/vk_video/vulkan_video_codec_h265std.h
+ C:/VulkanSDK/1.2.189.2/Include/vk_video/vulkan_video_codec_h265std_decode.h
+ C:/VulkanSDK/1.2.189.2/Include/vk_video/vulkan_video_codecs_common.h
+ C:/VulkanSDK/1.2.189.2/Include/vulkan/vk_platform.h
+ C:/VulkanSDK/1.2.189.2/Include/vulkan/vulkan.h
+ C:/VulkanSDK/1.2.189.2/Include/vulkan/vulkan_android.h
+ C:/VulkanSDK/1.2.189.2/Include/vulkan/vulkan_beta.h
+ C:/VulkanSDK/1.2.189.2/Include/vulkan/vulkan_core.h
+ C:/VulkanSDK/1.2.189.2/Include/vulkan/vulkan_directfb.h
+ C:/VulkanSDK/1.2.189.2/Include/vulkan/vulkan_fuchsia.h
+ C:/VulkanSDK/1.2.189.2/Include/vulkan/vulkan_ggp.h
+ C:/VulkanSDK/1.2.189.2/Include/vulkan/vulkan_ios.h
+ C:/VulkanSDK/1.2.189.2/Include/vulkan/vulkan_macos.h
+ C:/VulkanSDK/1.2.189.2/Include/vulkan/vulkan_metal.h
+ C:/VulkanSDK/1.2.189.2/Include/vulkan/vulkan_screen.h
+ C:/VulkanSDK/1.2.189.2/Include/vulkan/vulkan_vi.h
+ C:/VulkanSDK/1.2.189.2/Include/vulkan/vulkan_wayland.h
+ C:/VulkanSDK/1.2.189.2/Include/vulkan/vulkan_win32.h
+ C:/VulkanSDK/1.2.189.2/Include/vulkan/vulkan_xcb.h
+ C:/VulkanSDK/1.2.189.2/Include/vulkan/vulkan_xlib.h
+ C:/VulkanSDK/1.2.189.2/Include/vulkan/vulkan_xlib_xrandr.h
 CMakeFiles/GrapE.dir/grp_device.cpp.obj
  C:/Libraries/glfw-3.3.4.bin.WIN64/include/GLFW/glfw3.h
  C:/Users/pierr/CLionProjects/GrapE/grp_device.cpp
@@ -547,6 +611,7 @@ CMakeFiles/GrapE.dir/grp_game_object.cpp.obj
  C:/Libraries/glm-0.9.9.8/glm/vec3.hpp
  C:/Libraries/glm-0.9.9.8/glm/vec4.hpp
  C:/Libraries/glm-0.9.9.8/glm/vector_relational.hpp
+ C:/Users/pierr/CLionProjects/GrapE/grp_buffer.hpp
  C:/Users/pierr/CLionProjects/GrapE/grp_device.hpp
  C:/Users/pierr/CLionProjects/GrapE/grp_game_object.cpp
  C:/Users/pierr/CLionProjects/GrapE/grp_game_object.hpp
@@ -577,6 +642,7 @@ CMakeFiles/GrapE.dir/grp_game_object.cpp.obj
  C:/VulkanSDK/1.2.189.2/Include/vulkan/vulkan_xlib.h
  C:/VulkanSDK/1.2.189.2/Include/vulkan/vulkan_xlib_xrandr.h
 CMakeFiles/GrapE.dir/grp_model.cpp.obj
+ ../libs/tinyObjLoader/tiny_obj_loader.h
  C:/Libraries/glfw-3.3.4.bin.WIN64/include/GLFW/glfw3.h
  C:/Libraries/glm-0.9.9.8/glm/common.hpp
  C:/Libraries/glm-0.9.9.8/glm/detail/_fixes.hpp
@@ -603,6 +669,7 @@ CMakeFiles/GrapE.dir/grp_model.cpp.obj
  C:/Libraries/glm-0.9.9.8/glm/detail/func_vector_relational_simd.inl
  C:/Libraries/glm-0.9.9.8/glm/detail/qualifier.hpp
  C:/Libraries/glm-0.9.9.8/glm/detail/setup.hpp
+ C:/Libraries/glm-0.9.9.8/glm/detail/type_float.hpp
  C:/Libraries/glm-0.9.9.8/glm/detail/type_half.hpp
  C:/Libraries/glm-0.9.9.8/glm/detail/type_half.inl
  C:/Libraries/glm-0.9.9.8/glm/detail/type_mat2x2.hpp
@@ -624,6 +691,9 @@ CMakeFiles/GrapE.dir/grp_model.cpp.obj
  C:/Libraries/glm-0.9.9.8/glm/detail/type_mat4x4.hpp
  C:/Libraries/glm-0.9.9.8/glm/detail/type_mat4x4.inl
  C:/Libraries/glm-0.9.9.8/glm/detail/type_mat4x4_simd.inl
+ C:/Libraries/glm-0.9.9.8/glm/detail/type_quat.hpp
+ C:/Libraries/glm-0.9.9.8/glm/detail/type_quat.inl
+ C:/Libraries/glm-0.9.9.8/glm/detail/type_quat_simd.inl
  C:/Libraries/glm-0.9.9.8/glm/detail/type_vec1.hpp
  C:/Libraries/glm-0.9.9.8/glm/detail/type_vec1.inl
  C:/Libraries/glm-0.9.9.8/glm/detail/type_vec2.hpp
@@ -634,6 +704,8 @@ CMakeFiles/GrapE.dir/grp_model.cpp.obj
  C:/Libraries/glm-0.9.9.8/glm/detail/type_vec4.inl
  C:/Libraries/glm-0.9.9.8/glm/detail/type_vec4_simd.inl
  C:/Libraries/glm-0.9.9.8/glm/exponential.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/matrix_clip_space.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/matrix_clip_space.inl
  C:/Libraries/glm-0.9.9.8/glm/ext/matrix_double2x2.hpp
  C:/Libraries/glm-0.9.9.8/glm/ext/matrix_double2x2_precision.hpp
  C:/Libraries/glm-0.9.9.8/glm/ext/matrix_double2x3.hpp
@@ -670,32 +742,64 @@ CMakeFiles/GrapE.dir/grp_model.cpp.obj
  C:/Libraries/glm-0.9.9.8/glm/ext/matrix_float4x3_precision.hpp
  C:/Libraries/glm-0.9.9.8/glm/ext/matrix_float4x4.hpp
  C:/Libraries/glm-0.9.9.8/glm/ext/matrix_float4x4_precision.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/matrix_projection.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/matrix_projection.inl
+ C:/Libraries/glm-0.9.9.8/glm/ext/matrix_transform.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/quaternion_common.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/quaternion_common.inl
+ C:/Libraries/glm-0.9.9.8/glm/ext/quaternion_common_simd.inl
+ C:/Libraries/glm-0.9.9.8/glm/ext/quaternion_double.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/quaternion_double_precision.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/quaternion_float.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/quaternion_float_precision.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/quaternion_geometric.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/quaternion_geometric.inl
+ C:/Libraries/glm-0.9.9.8/glm/ext/quaternion_relational.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/quaternion_relational.inl
+ C:/Libraries/glm-0.9.9.8/glm/ext/quaternion_transform.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/quaternion_transform.inl
+ C:/Libraries/glm-0.9.9.8/glm/ext/quaternion_trigonometric.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/quaternion_trigonometric.inl
+ C:/Libraries/glm-0.9.9.8/glm/ext/scalar_constants.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/scalar_constants.inl
  C:/Libraries/glm-0.9.9.8/glm/ext/scalar_int_sized.hpp
  C:/Libraries/glm-0.9.9.8/glm/ext/scalar_uint_sized.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/vector_bool1.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/vector_bool1_precision.hpp
  C:/Libraries/glm-0.9.9.8/glm/ext/vector_bool2.hpp
  C:/Libraries/glm-0.9.9.8/glm/ext/vector_bool2_precision.hpp
  C:/Libraries/glm-0.9.9.8/glm/ext/vector_bool3.hpp
  C:/Libraries/glm-0.9.9.8/glm/ext/vector_bool3_precision.hpp
  C:/Libraries/glm-0.9.9.8/glm/ext/vector_bool4.hpp
  C:/Libraries/glm-0.9.9.8/glm/ext/vector_bool4_precision.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/vector_double1.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/vector_double1_precision.hpp
  C:/Libraries/glm-0.9.9.8/glm/ext/vector_double2.hpp
  C:/Libraries/glm-0.9.9.8/glm/ext/vector_double2_precision.hpp
  C:/Libraries/glm-0.9.9.8/glm/ext/vector_double3.hpp
  C:/Libraries/glm-0.9.9.8/glm/ext/vector_double3_precision.hpp
  C:/Libraries/glm-0.9.9.8/glm/ext/vector_double4.hpp
  C:/Libraries/glm-0.9.9.8/glm/ext/vector_double4_precision.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/vector_float1.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/vector_float1_precision.hpp
  C:/Libraries/glm-0.9.9.8/glm/ext/vector_float2.hpp
  C:/Libraries/glm-0.9.9.8/glm/ext/vector_float2_precision.hpp
  C:/Libraries/glm-0.9.9.8/glm/ext/vector_float3.hpp
  C:/Libraries/glm-0.9.9.8/glm/ext/vector_float3_precision.hpp
  C:/Libraries/glm-0.9.9.8/glm/ext/vector_float4.hpp
  C:/Libraries/glm-0.9.9.8/glm/ext/vector_float4_precision.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/vector_int1.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/vector_int1_sized.hpp
  C:/Libraries/glm-0.9.9.8/glm/ext/vector_int2.hpp
  C:/Libraries/glm-0.9.9.8/glm/ext/vector_int2_sized.hpp
  C:/Libraries/glm-0.9.9.8/glm/ext/vector_int3.hpp
  C:/Libraries/glm-0.9.9.8/glm/ext/vector_int3_sized.hpp
  C:/Libraries/glm-0.9.9.8/glm/ext/vector_int4.hpp
  C:/Libraries/glm-0.9.9.8/glm/ext/vector_int4_sized.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/vector_relational.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/vector_relational.inl
+ C:/Libraries/glm-0.9.9.8/glm/ext/vector_uint1.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/vector_uint1_sized.hpp
  C:/Libraries/glm-0.9.9.8/glm/ext/vector_uint2.hpp
  C:/Libraries/glm-0.9.9.8/glm/ext/vector_uint2_sized.hpp
  C:/Libraries/glm-0.9.9.8/glm/ext/vector_uint3.hpp
@@ -705,6 +809,20 @@ CMakeFiles/GrapE.dir/grp_model.cpp.obj
  C:/Libraries/glm-0.9.9.8/glm/fwd.hpp
  C:/Libraries/glm-0.9.9.8/glm/geometric.hpp
  C:/Libraries/glm-0.9.9.8/glm/glm.hpp
+ C:/Libraries/glm-0.9.9.8/glm/gtc/constants.hpp
+ C:/Libraries/glm-0.9.9.8/glm/gtc/constants.inl
+ C:/Libraries/glm-0.9.9.8/glm/gtc/epsilon.hpp
+ C:/Libraries/glm-0.9.9.8/glm/gtc/epsilon.inl
+ C:/Libraries/glm-0.9.9.8/glm/gtc/matrix_transform.hpp
+ C:/Libraries/glm-0.9.9.8/glm/gtc/matrix_transform.inl
+ C:/Libraries/glm-0.9.9.8/glm/gtc/quaternion.hpp
+ C:/Libraries/glm-0.9.9.8/glm/gtc/quaternion.inl
+ C:/Libraries/glm-0.9.9.8/glm/gtc/quaternion_simd.inl
+ C:/Libraries/glm-0.9.9.8/glm/gtc/vec1.hpp
+ C:/Libraries/glm-0.9.9.8/glm/gtx/dual_quaternion.hpp
+ C:/Libraries/glm-0.9.9.8/glm/gtx/dual_quaternion.inl
+ C:/Libraries/glm-0.9.9.8/glm/gtx/hash.hpp
+ C:/Libraries/glm-0.9.9.8/glm/gtx/hash.inl
  C:/Libraries/glm-0.9.9.8/glm/integer.hpp
  C:/Libraries/glm-0.9.9.8/glm/mat2x2.hpp
  C:/Libraries/glm-0.9.9.8/glm/mat2x3.hpp
@@ -729,9 +847,11 @@ CMakeFiles/GrapE.dir/grp_model.cpp.obj
  C:/Libraries/glm-0.9.9.8/glm/vec3.hpp
  C:/Libraries/glm-0.9.9.8/glm/vec4.hpp
  C:/Libraries/glm-0.9.9.8/glm/vector_relational.hpp
+ C:/Users/pierr/CLionProjects/GrapE/grp_buffer.hpp
  C:/Users/pierr/CLionProjects/GrapE/grp_device.hpp
  C:/Users/pierr/CLionProjects/GrapE/grp_model.cpp
  C:/Users/pierr/CLionProjects/GrapE/grp_model.hpp
+ C:/Users/pierr/CLionProjects/GrapE/grp_utils.hpp
  C:/Users/pierr/CLionProjects/GrapE/grp_window.hpp
  C:/VulkanSDK/1.2.189.2/Include/vk_video/vulkan_video_codec_h264std.h
  C:/VulkanSDK/1.2.189.2/Include/vk_video/vulkan_video_codec_h264std_decode.h
@@ -910,6 +1030,7 @@ CMakeFiles/GrapE.dir/grp_pipeline.cpp.obj
  C:/Libraries/glm-0.9.9.8/glm/vec3.hpp
  C:/Libraries/glm-0.9.9.8/glm/vec4.hpp
  C:/Libraries/glm-0.9.9.8/glm/vector_relational.hpp
+ C:/Users/pierr/CLionProjects/GrapE/grp_buffer.hpp
  C:/Users/pierr/CLionProjects/GrapE/grp_device.hpp
  C:/Users/pierr/CLionProjects/GrapE/grp_model.hpp
  C:/Users/pierr/CLionProjects/GrapE/grp_pipeline.cpp
@@ -1004,6 +1125,205 @@ CMakeFiles/GrapE.dir/grp_window.cpp.obj
  C:/Libraries/glfw-3.3.4.bin.WIN64/include/GLFW/glfw3.h
  C:/Users/pierr/CLionProjects/GrapE/grp_window.cpp
  C:/Users/pierr/CLionProjects/GrapE/grp_window.hpp
+ C:/VulkanSDK/1.2.189.2/Include/vk_video/vulkan_video_codec_h264std.h
+ C:/VulkanSDK/1.2.189.2/Include/vk_video/vulkan_video_codec_h264std_decode.h
+ C:/VulkanSDK/1.2.189.2/Include/vk_video/vulkan_video_codec_h264std_encode.h
+ C:/VulkanSDK/1.2.189.2/Include/vk_video/vulkan_video_codec_h265std.h
+ C:/VulkanSDK/1.2.189.2/Include/vk_video/vulkan_video_codec_h265std_decode.h
+ C:/VulkanSDK/1.2.189.2/Include/vk_video/vulkan_video_codecs_common.h
+ C:/VulkanSDK/1.2.189.2/Include/vulkan/vk_platform.h
+ C:/VulkanSDK/1.2.189.2/Include/vulkan/vulkan.h
+ C:/VulkanSDK/1.2.189.2/Include/vulkan/vulkan_android.h
+ C:/VulkanSDK/1.2.189.2/Include/vulkan/vulkan_beta.h
+ C:/VulkanSDK/1.2.189.2/Include/vulkan/vulkan_core.h
+ C:/VulkanSDK/1.2.189.2/Include/vulkan/vulkan_directfb.h
+ C:/VulkanSDK/1.2.189.2/Include/vulkan/vulkan_fuchsia.h
+ C:/VulkanSDK/1.2.189.2/Include/vulkan/vulkan_ggp.h
+ C:/VulkanSDK/1.2.189.2/Include/vulkan/vulkan_ios.h
+ C:/VulkanSDK/1.2.189.2/Include/vulkan/vulkan_macos.h
+ C:/VulkanSDK/1.2.189.2/Include/vulkan/vulkan_metal.h
+ C:/VulkanSDK/1.2.189.2/Include/vulkan/vulkan_screen.h
+ C:/VulkanSDK/1.2.189.2/Include/vulkan/vulkan_vi.h
+ C:/VulkanSDK/1.2.189.2/Include/vulkan/vulkan_wayland.h
+ C:/VulkanSDK/1.2.189.2/Include/vulkan/vulkan_win32.h
+ C:/VulkanSDK/1.2.189.2/Include/vulkan/vulkan_xcb.h
+ C:/VulkanSDK/1.2.189.2/Include/vulkan/vulkan_xlib.h
+ C:/VulkanSDK/1.2.189.2/Include/vulkan/vulkan_xlib_xrandr.h
+CMakeFiles/GrapE.dir/keyboard_movement_controller.cpp.obj
+ C:/Libraries/glfw-3.3.4.bin.WIN64/include/GLFW/glfw3.h
+ C:/Libraries/glm-0.9.9.8/glm/common.hpp
+ C:/Libraries/glm-0.9.9.8/glm/detail/_fixes.hpp
+ C:/Libraries/glm-0.9.9.8/glm/detail/_swizzle.hpp
+ C:/Libraries/glm-0.9.9.8/glm/detail/_swizzle_func.hpp
+ C:/Libraries/glm-0.9.9.8/glm/detail/_vectorize.hpp
+ C:/Libraries/glm-0.9.9.8/glm/detail/compute_common.hpp
+ C:/Libraries/glm-0.9.9.8/glm/detail/compute_vector_relational.hpp
+ C:/Libraries/glm-0.9.9.8/glm/detail/func_common.inl
+ C:/Libraries/glm-0.9.9.8/glm/detail/func_common_simd.inl
+ C:/Libraries/glm-0.9.9.8/glm/detail/func_exponential.inl
+ C:/Libraries/glm-0.9.9.8/glm/detail/func_exponential_simd.inl
+ C:/Libraries/glm-0.9.9.8/glm/detail/func_geometric.inl
+ C:/Libraries/glm-0.9.9.8/glm/detail/func_geometric_simd.inl
+ C:/Libraries/glm-0.9.9.8/glm/detail/func_integer.inl
+ C:/Libraries/glm-0.9.9.8/glm/detail/func_integer_simd.inl
+ C:/Libraries/glm-0.9.9.8/glm/detail/func_matrix.inl
+ C:/Libraries/glm-0.9.9.8/glm/detail/func_matrix_simd.inl
+ C:/Libraries/glm-0.9.9.8/glm/detail/func_packing.inl
+ C:/Libraries/glm-0.9.9.8/glm/detail/func_packing_simd.inl
+ C:/Libraries/glm-0.9.9.8/glm/detail/func_trigonometric.inl
+ C:/Libraries/glm-0.9.9.8/glm/detail/func_trigonometric_simd.inl
+ C:/Libraries/glm-0.9.9.8/glm/detail/func_vector_relational.inl
+ C:/Libraries/glm-0.9.9.8/glm/detail/func_vector_relational_simd.inl
+ C:/Libraries/glm-0.9.9.8/glm/detail/qualifier.hpp
+ C:/Libraries/glm-0.9.9.8/glm/detail/setup.hpp
+ C:/Libraries/glm-0.9.9.8/glm/detail/type_half.hpp
+ C:/Libraries/glm-0.9.9.8/glm/detail/type_half.inl
+ C:/Libraries/glm-0.9.9.8/glm/detail/type_mat2x2.hpp
+ C:/Libraries/glm-0.9.9.8/glm/detail/type_mat2x2.inl
+ C:/Libraries/glm-0.9.9.8/glm/detail/type_mat2x3.hpp
+ C:/Libraries/glm-0.9.9.8/glm/detail/type_mat2x3.inl
+ C:/Libraries/glm-0.9.9.8/glm/detail/type_mat2x4.hpp
+ C:/Libraries/glm-0.9.9.8/glm/detail/type_mat2x4.inl
+ C:/Libraries/glm-0.9.9.8/glm/detail/type_mat3x2.hpp
+ C:/Libraries/glm-0.9.9.8/glm/detail/type_mat3x2.inl
+ C:/Libraries/glm-0.9.9.8/glm/detail/type_mat3x3.hpp
+ C:/Libraries/glm-0.9.9.8/glm/detail/type_mat3x3.inl
+ C:/Libraries/glm-0.9.9.8/glm/detail/type_mat3x4.hpp
+ C:/Libraries/glm-0.9.9.8/glm/detail/type_mat3x4.inl
+ C:/Libraries/glm-0.9.9.8/glm/detail/type_mat4x2.hpp
+ C:/Libraries/glm-0.9.9.8/glm/detail/type_mat4x2.inl
+ C:/Libraries/glm-0.9.9.8/glm/detail/type_mat4x3.hpp
+ C:/Libraries/glm-0.9.9.8/glm/detail/type_mat4x3.inl
+ C:/Libraries/glm-0.9.9.8/glm/detail/type_mat4x4.hpp
+ C:/Libraries/glm-0.9.9.8/glm/detail/type_mat4x4.inl
+ C:/Libraries/glm-0.9.9.8/glm/detail/type_mat4x4_simd.inl
+ C:/Libraries/glm-0.9.9.8/glm/detail/type_vec1.hpp
+ C:/Libraries/glm-0.9.9.8/glm/detail/type_vec1.inl
+ C:/Libraries/glm-0.9.9.8/glm/detail/type_vec2.hpp
+ C:/Libraries/glm-0.9.9.8/glm/detail/type_vec2.inl
+ C:/Libraries/glm-0.9.9.8/glm/detail/type_vec3.hpp
+ C:/Libraries/glm-0.9.9.8/glm/detail/type_vec3.inl
+ C:/Libraries/glm-0.9.9.8/glm/detail/type_vec4.hpp
+ C:/Libraries/glm-0.9.9.8/glm/detail/type_vec4.inl
+ C:/Libraries/glm-0.9.9.8/glm/detail/type_vec4_simd.inl
+ C:/Libraries/glm-0.9.9.8/glm/exponential.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/matrix_clip_space.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/matrix_clip_space.inl
+ C:/Libraries/glm-0.9.9.8/glm/ext/matrix_double2x2.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/matrix_double2x2_precision.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/matrix_double2x3.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/matrix_double2x3_precision.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/matrix_double2x4.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/matrix_double2x4_precision.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/matrix_double3x2.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/matrix_double3x2_precision.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/matrix_double3x3.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/matrix_double3x3_precision.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/matrix_double3x4.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/matrix_double3x4_precision.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/matrix_double4x2.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/matrix_double4x2_precision.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/matrix_double4x3.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/matrix_double4x3_precision.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/matrix_double4x4.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/matrix_double4x4_precision.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/matrix_float2x2.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/matrix_float2x2_precision.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/matrix_float2x3.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/matrix_float2x3_precision.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/matrix_float2x4.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/matrix_float2x4_precision.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/matrix_float3x2.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/matrix_float3x2_precision.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/matrix_float3x3.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/matrix_float3x3_precision.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/matrix_float3x4.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/matrix_float3x4_precision.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/matrix_float4x2.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/matrix_float4x2_precision.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/matrix_float4x3.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/matrix_float4x3_precision.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/matrix_float4x4.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/matrix_float4x4_precision.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/matrix_projection.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/matrix_projection.inl
+ C:/Libraries/glm-0.9.9.8/glm/ext/matrix_transform.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/scalar_constants.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/scalar_constants.inl
+ C:/Libraries/glm-0.9.9.8/glm/ext/scalar_int_sized.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/scalar_uint_sized.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/vector_bool2.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/vector_bool2_precision.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/vector_bool3.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/vector_bool3_precision.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/vector_bool4.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/vector_bool4_precision.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/vector_double2.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/vector_double2_precision.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/vector_double3.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/vector_double3_precision.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/vector_double4.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/vector_double4_precision.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/vector_float2.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/vector_float2_precision.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/vector_float3.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/vector_float3_precision.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/vector_float4.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/vector_float4_precision.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/vector_int2.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/vector_int2_sized.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/vector_int3.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/vector_int3_sized.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/vector_int4.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/vector_int4_sized.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/vector_uint2.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/vector_uint2_sized.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/vector_uint3.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/vector_uint3_sized.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/vector_uint4.hpp
+ C:/Libraries/glm-0.9.9.8/glm/ext/vector_uint4_sized.hpp
+ C:/Libraries/glm-0.9.9.8/glm/fwd.hpp
+ C:/Libraries/glm-0.9.9.8/glm/geometric.hpp
+ C:/Libraries/glm-0.9.9.8/glm/glm.hpp
+ C:/Libraries/glm-0.9.9.8/glm/gtc/constants.hpp
+ C:/Libraries/glm-0.9.9.8/glm/gtc/constants.inl
+ C:/Libraries/glm-0.9.9.8/glm/gtc/matrix_transform.hpp
+ C:/Libraries/glm-0.9.9.8/glm/gtc/matrix_transform.inl
+ C:/Libraries/glm-0.9.9.8/glm/integer.hpp
+ C:/Libraries/glm-0.9.9.8/glm/mat2x2.hpp
+ C:/Libraries/glm-0.9.9.8/glm/mat2x3.hpp
+ C:/Libraries/glm-0.9.9.8/glm/mat2x4.hpp
+ C:/Libraries/glm-0.9.9.8/glm/mat3x2.hpp
+ C:/Libraries/glm-0.9.9.8/glm/mat3x3.hpp
+ C:/Libraries/glm-0.9.9.8/glm/mat3x4.hpp
+ C:/Libraries/glm-0.9.9.8/glm/mat4x2.hpp
+ C:/Libraries/glm-0.9.9.8/glm/mat4x3.hpp
+ C:/Libraries/glm-0.9.9.8/glm/mat4x4.hpp
+ C:/Libraries/glm-0.9.9.8/glm/matrix.hpp
+ C:/Libraries/glm-0.9.9.8/glm/packing.hpp
+ C:/Libraries/glm-0.9.9.8/glm/simd/common.h
+ C:/Libraries/glm-0.9.9.8/glm/simd/exponential.h
+ C:/Libraries/glm-0.9.9.8/glm/simd/geometric.h
+ C:/Libraries/glm-0.9.9.8/glm/simd/integer.h
+ C:/Libraries/glm-0.9.9.8/glm/simd/matrix.h
+ C:/Libraries/glm-0.9.9.8/glm/simd/neon.h
+ C:/Libraries/glm-0.9.9.8/glm/simd/platform.h
+ C:/Libraries/glm-0.9.9.8/glm/trigonometric.hpp
+ C:/Libraries/glm-0.9.9.8/glm/vec2.hpp
+ C:/Libraries/glm-0.9.9.8/glm/vec3.hpp
+ C:/Libraries/glm-0.9.9.8/glm/vec4.hpp
+ C:/Libraries/glm-0.9.9.8/glm/vector_relational.hpp
+ C:/Users/pierr/CLionProjects/GrapE/App.hpp
+ C:/Users/pierr/CLionProjects/GrapE/grp_buffer.hpp
+ C:/Users/pierr/CLionProjects/GrapE/grp_descriptors.hpp
+ C:/Users/pierr/CLionProjects/GrapE/grp_device.hpp
+ C:/Users/pierr/CLionProjects/GrapE/grp_game_object.hpp
+ C:/Users/pierr/CLionProjects/GrapE/grp_model.hpp
+ C:/Users/pierr/CLionProjects/GrapE/grp_renderer.hpp
+ C:/Users/pierr/CLionProjects/GrapE/grp_swap_chain.hpp
+ C:/Users/pierr/CLionProjects/GrapE/grp_window.hpp
+ C:/Users/pierr/CLionProjects/GrapE/keyboard_movement_controller.cpp
+ C:/Users/pierr/CLionProjects/GrapE/keyboard_movement_controller.hpp
  C:/VulkanSDK/1.2.189.2/Include/vk_video/vulkan_video_codec_h264std.h
  C:/VulkanSDK/1.2.189.2/Include/vk_video/vulkan_video_codec_h264std_decode.h
  C:/VulkanSDK/1.2.189.2/Include/vk_video/vulkan_video_codec_h264std_encode.h
@@ -1193,6 +1513,8 @@ CMakeFiles/GrapE.dir/main.cpp.obj
  C:/Libraries/glm-0.9.9.8/glm/vec4.hpp
  C:/Libraries/glm-0.9.9.8/glm/vector_relational.hpp
  C:/Users/pierr/CLionProjects/GrapE/App.hpp
+ C:/Users/pierr/CLionProjects/GrapE/grp_buffer.hpp
+ C:/Users/pierr/CLionProjects/GrapE/grp_descriptors.hpp
  C:/Users/pierr/CLionProjects/GrapE/grp_device.hpp
  C:/Users/pierr/CLionProjects/GrapE/grp_game_object.hpp
  C:/Users/pierr/CLionProjects/GrapE/grp_model.hpp
@@ -1388,8 +1710,10 @@ CMakeFiles/GrapE.dir/simple_render_system.cpp.obj
  C:/Libraries/glm-0.9.9.8/glm/vec3.hpp
  C:/Libraries/glm-0.9.9.8/glm/vec4.hpp
  C:/Libraries/glm-0.9.9.8/glm/vector_relational.hpp
+ C:/Users/pierr/CLionProjects/GrapE/grp_buffer.hpp
  C:/Users/pierr/CLionProjects/GrapE/grp_camera.hpp
  C:/Users/pierr/CLionProjects/GrapE/grp_device.hpp
+ C:/Users/pierr/CLionProjects/GrapE/grp_frame_info.hpp
  C:/Users/pierr/CLionProjects/GrapE/grp_game_object.hpp
  C:/Users/pierr/CLionProjects/GrapE/grp_model.hpp
  C:/Users/pierr/CLionProjects/GrapE/grp_pipeline.hpp

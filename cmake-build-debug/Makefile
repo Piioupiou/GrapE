@@ -155,6 +155,30 @@ App.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GrapE.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GrapE.dir\App.cpp.s
 .PHONY : App.cpp.s
 
+grp_buffer.obj: grp_buffer.cpp.obj
+.PHONY : grp_buffer.obj
+
+# target to build an object file
+grp_buffer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GrapE.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GrapE.dir\grp_buffer.cpp.obj
+.PHONY : grp_buffer.cpp.obj
+
+grp_buffer.i: grp_buffer.cpp.i
+.PHONY : grp_buffer.i
+
+# target to preprocess a source file
+grp_buffer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GrapE.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GrapE.dir\grp_buffer.cpp.i
+.PHONY : grp_buffer.cpp.i
+
+grp_buffer.s: grp_buffer.cpp.s
+.PHONY : grp_buffer.s
+
+# target to generate assembly for a file
+grp_buffer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GrapE.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GrapE.dir\grp_buffer.cpp.s
+.PHONY : grp_buffer.cpp.s
+
 grp_camera.obj: grp_camera.cpp.obj
 .PHONY : grp_camera.obj
 
@@ -178,6 +202,30 @@ grp_camera.s: grp_camera.cpp.s
 grp_camera.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GrapE.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GrapE.dir\grp_camera.cpp.s
 .PHONY : grp_camera.cpp.s
+
+grp_descriptors.obj: grp_descriptors.cpp.obj
+.PHONY : grp_descriptors.obj
+
+# target to build an object file
+grp_descriptors.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GrapE.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GrapE.dir\grp_descriptors.cpp.obj
+.PHONY : grp_descriptors.cpp.obj
+
+grp_descriptors.i: grp_descriptors.cpp.i
+.PHONY : grp_descriptors.i
+
+# target to preprocess a source file
+grp_descriptors.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GrapE.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GrapE.dir\grp_descriptors.cpp.i
+.PHONY : grp_descriptors.cpp.i
+
+grp_descriptors.s: grp_descriptors.cpp.s
+.PHONY : grp_descriptors.s
+
+# target to generate assembly for a file
+grp_descriptors.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GrapE.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GrapE.dir\grp_descriptors.cpp.s
+.PHONY : grp_descriptors.cpp.s
 
 grp_device.obj: grp_device.cpp.obj
 .PHONY : grp_device.obj
@@ -347,6 +395,30 @@ grp_window.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GrapE.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GrapE.dir\grp_window.cpp.s
 .PHONY : grp_window.cpp.s
 
+keyboard_movement_controller.obj: keyboard_movement_controller.cpp.obj
+.PHONY : keyboard_movement_controller.obj
+
+# target to build an object file
+keyboard_movement_controller.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GrapE.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GrapE.dir\keyboard_movement_controller.cpp.obj
+.PHONY : keyboard_movement_controller.cpp.obj
+
+keyboard_movement_controller.i: keyboard_movement_controller.cpp.i
+.PHONY : keyboard_movement_controller.i
+
+# target to preprocess a source file
+keyboard_movement_controller.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GrapE.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GrapE.dir\keyboard_movement_controller.cpp.i
+.PHONY : keyboard_movement_controller.cpp.i
+
+keyboard_movement_controller.s: keyboard_movement_controller.cpp.s
+.PHONY : keyboard_movement_controller.s
+
+# target to generate assembly for a file
+keyboard_movement_controller.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GrapE.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GrapE.dir\keyboard_movement_controller.cpp.s
+.PHONY : keyboard_movement_controller.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -408,9 +480,15 @@ help:
 	@echo ... App.obj
 	@echo ... App.i
 	@echo ... App.s
+	@echo ... grp_buffer.obj
+	@echo ... grp_buffer.i
+	@echo ... grp_buffer.s
 	@echo ... grp_camera.obj
 	@echo ... grp_camera.i
 	@echo ... grp_camera.s
+	@echo ... grp_descriptors.obj
+	@echo ... grp_descriptors.i
+	@echo ... grp_descriptors.s
 	@echo ... grp_device.obj
 	@echo ... grp_device.i
 	@echo ... grp_device.s
@@ -432,6 +510,9 @@ help:
 	@echo ... grp_window.obj
 	@echo ... grp_window.i
 	@echo ... grp_window.s
+	@echo ... keyboard_movement_controller.obj
+	@echo ... keyboard_movement_controller.i
+	@echo ... keyboard_movement_controller.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

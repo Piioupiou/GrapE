@@ -34,6 +34,7 @@
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
+					<Add directory="C:/Users/pierr/CLionProjects/GrapE/libs/tinyObjLoader"/>
 					<Add directory="C:/VulkanSDK/1.2.189.2/Include"/>
 					<Add directory="C:/Libraries/glm-0.9.9.8"/>
 					<Add directory="C:/Libraries/glfw-3.3.4.bin.WIN64/include"/>
@@ -60,6 +61,7 @@
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
+					<Add directory="C:/Users/pierr/CLionProjects/GrapE/libs/tinyObjLoader"/>
 					<Add directory="C:/VulkanSDK/1.2.189.2/Include"/>
 					<Add directory="C:/Libraries/glm-0.9.9.8"/>
 					<Add directory="C:/Libraries/glfw-3.3.4.bin.WIN64/include"/>
@@ -106,16 +108,31 @@
 		<Unit filename="C:/Users/pierr/CLionProjects/GrapE/App.hpp">
 			<Option target="GrapE"/>
 		</Unit>
+		<Unit filename="C:/Users/pierr/CLionProjects/GrapE/grp_buffer.cpp">
+			<Option target="GrapE"/>
+		</Unit>
+		<Unit filename="C:/Users/pierr/CLionProjects/GrapE/grp_buffer.hpp">
+			<Option target="GrapE"/>
+		</Unit>
 		<Unit filename="C:/Users/pierr/CLionProjects/GrapE/grp_camera.cpp">
 			<Option target="GrapE"/>
 		</Unit>
 		<Unit filename="C:/Users/pierr/CLionProjects/GrapE/grp_camera.hpp">
 			<Option target="GrapE"/>
 		</Unit>
+		<Unit filename="C:/Users/pierr/CLionProjects/GrapE/grp_descriptors.cpp">
+			<Option target="GrapE"/>
+		</Unit>
+		<Unit filename="C:/Users/pierr/CLionProjects/GrapE/grp_descriptors.hpp">
+			<Option target="GrapE"/>
+		</Unit>
 		<Unit filename="C:/Users/pierr/CLionProjects/GrapE/grp_device.cpp">
 			<Option target="GrapE"/>
 		</Unit>
 		<Unit filename="C:/Users/pierr/CLionProjects/GrapE/grp_device.hpp">
+			<Option target="GrapE"/>
+		</Unit>
+		<Unit filename="C:/Users/pierr/CLionProjects/GrapE/grp_frame_info.hpp">
 			<Option target="GrapE"/>
 		</Unit>
 		<Unit filename="C:/Users/pierr/CLionProjects/GrapE/grp_game_object.cpp">
@@ -148,10 +165,19 @@
 		<Unit filename="C:/Users/pierr/CLionProjects/GrapE/grp_swap_chain.hpp">
 			<Option target="GrapE"/>
 		</Unit>
+		<Unit filename="C:/Users/pierr/CLionProjects/GrapE/grp_utils.hpp">
+			<Option target="GrapE"/>
+		</Unit>
 		<Unit filename="C:/Users/pierr/CLionProjects/GrapE/grp_window.cpp">
 			<Option target="GrapE"/>
 		</Unit>
 		<Unit filename="C:/Users/pierr/CLionProjects/GrapE/grp_window.hpp">
+			<Option target="GrapE"/>
+		</Unit>
+		<Unit filename="C:/Users/pierr/CLionProjects/GrapE/keyboard_movement_controller.cpp">
+			<Option target="GrapE"/>
+		</Unit>
+		<Unit filename="C:/Users/pierr/CLionProjects/GrapE/keyboard_movement_controller.hpp">
 			<Option target="GrapE"/>
 		</Unit>
 		<Unit filename="C:/Users/pierr/CLionProjects/GrapE/main.cpp">

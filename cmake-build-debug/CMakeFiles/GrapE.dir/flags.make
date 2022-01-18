@@ -4,7 +4,7 @@
 # compile CXX with C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.30.30705/bin/Hostx64/x64/cl.exe
 CXX_DEFINES = 
 
-CXX_INCLUDES = -IC:\VulkanSDK\1.2.189.2\Include -IC:\Libraries\glm-0.9.9.8 -IC:\Libraries\glfw-3.3.4.bin.WIN64\include
+CXX_INCLUDES = -IC:\Users\pierr\CLionProjects\GrapE\libs\tinyObjLoader -IC:\VulkanSDK\1.2.189.2\Include -IC:\Libraries\glm-0.9.9.8 -IC:\Libraries\glfw-3.3.4.bin.WIN64\include
 
 CXX_FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
 

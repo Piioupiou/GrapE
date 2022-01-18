@@ -18,6 +18,7 @@
 #include "grp_device.hpp"
 #include "grp_game_object.hpp"
 #include "grp_renderer.hpp"
+#include "grp_descriptors.hpp"
 
 // std
 #include <memory>
@@ -26,8 +27,8 @@
 namespace grp {
     class App {
     public:
-        static constexpr int WIDTH = 800;
-        static constexpr int HEIGHT = 600;
+        static constexpr int WIDTH = 1920;
+        static constexpr int HEIGHT = 1080;
         App();
         ~App();
 
@@ -40,7 +41,10 @@ namespace grp {
         GrpWindow grpWindow{WIDTH, HEIGHT, "Grape Example"};
         GrpDevice grpDevice{grpWindow};
         GrpRenderer grpRenderer{grpWindow, grpDevice};
-        std::vector<GrpGameObject> gameObjects;
+
+        // Careful here, declarations order matters ! (Pool need to be destroy before device)
+        std::unique_ptr<GrpDescriptorPool> globalPool{};
+        GrpGameObject::Map gameObjects;
 
         void loadGameObjects();
     };

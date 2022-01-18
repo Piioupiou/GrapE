@@ -216,6 +216,9 @@ GrapE_BINARY_DIR:STATIC=C:/Users/pierr/CLionProjects/GrapE/cmake-build-debug
 //Value Computed by CMake
 GrapE_SOURCE_DIR:STATIC=C:/Users/pierr/CLionProjects/GrapE
 
+//The directory containing a CMake configuration file for REQUIRED.
+REQUIRED_DIR:PATH=REQUIRED_DIR-NOTFOUND
+
 //Path to a program.
 Vulkan_GLSLC_EXECUTABLE:FILEPATH=C:/VulkanSDK/1.2.189.2/Bin/glslc.exe
 
@@ -230,6 +233,9 @@ glfw3_DIR:PATH=glfw3_DIR-NOTFOUND
 
 //Path to a program.
 glslc_executable:FILEPATH=C:/VulkanSDK/1.2.189.2/Bin/glslc.exe
+
+//The directory containing a CMake configuration file for tinyobj.
+tinyobj_DIR:PATH=tinyobj_DIR-NOTFOUND
 
 
 ########################
